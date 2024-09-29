@@ -6,6 +6,8 @@
 }
 body{
   background-color: dodgerblue;
+  width: 50%;
+  height: 50%;
 }
 .container{
   width: min(40%, 28.12em);
@@ -42,12 +44,12 @@ button{
   color: rgb(1, 1, 1);
   background-color: rgb(255, 255, 255);
 }
-output-box{
+.output-box{
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-output-box div {
+.output-box div {
   height: 6.25em;
   width: 6.25em;
   background-color: black;
@@ -56,4 +58,14 @@ output-box div {
   display: grid;
   place-items: center;
   padding: 1.25em 0;
+  box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3); 
+}
+span{
+  font-size: 1.87em;
+  font-weight: 500;
+}
+p{
+  font-size: 0.87em;
+  color: dimgrey;
+  font-weight: 400;
 }
